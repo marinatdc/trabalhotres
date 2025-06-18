@@ -1,11 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trabalho A3</title>
+
+    <link rel="shortcut icon" href="./style/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/desktop.css">
+
 </head>
+
 <body>
-    <P>teste</P>
+
+    <header>
+        <div id="conjuntoUmHeader">
+            <img id="losanguloBrancoHeader" src="style/images/iconWhite.png" alt="losangulo branco">
+
+            <div id="textHeader">
+                <h1 id="title"><span id="paas">Paas</span> - Netlify</h1>
+                <h4 id="subtitle">Marina Terra da Costa</h4>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="descricaoPaas">
+            <p><a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-paas"
+                    target="_blank">"Plataforma como Serviço" (Platform as a Service)</a> é um modelo de computação em
+                nuvem que fornece uma plataforma para desenvolver, executar, gerenciar e implantar aplicações</p>
+        </div>
+
+        <div id="descricaoNetlify">
+            <div id="breveDescrNet">
+                <img src="./style/images/netlifyLogo.png" alt="logo da Netlify">
+                <div class="textosDuplos">
+                    <h3 id="descTitle">Netlify</h3>
+                    <p class="textoNetlify">A Netlify é uma empresa de computação em nuvem que prioriza a computação
+                        remota e oferece uma
+                        plataforma de desenvolvimento que inclui serviços de construção, implantação e backend sem
+                        servidor para aplicativos da web e sites dinâmicos .
+                        A empresa permite a construção, implantação e dimensionamento de sites cujos arquivos de origem
+                        são armazenados no sistema de controle de versão Git e, em seguida, gerados em arquivos de
+                        conteúdo da web estáticos servidos por meio de uma rede de distribuição de
+                        conteúdo. As funções Netlify são usadas na construção de sites dinâmicos com
+                        recursos interativos. A plataforma Netlify se integra a vários plug-ins e interfaces de
+                        programação de aplicativos (APIs) para adicionar recursos/funcionalidades extras para projetos
+                        da web. </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="funcoes">
+                <h2>Principais funções e serviços</h2>
+
+                <h3>1. Build e deploy automáticos</h3>
+
+                <p class="textoNetlify">
+                    Uma das maiores facilidades do Netlify é sua capacidade de automatizar completamente o processo de
+                    construção (build) e publicação (deploy) de sites e aplicações. Assim que você conecta seu
+                    repositório
+                    de código, seja no GitHub, GitLab ou Bitbucket, o Netlify monitora automaticamente qualquer
+                    alteração
+                    feita no seu projeto. Sempre que você faz um push no repositório, ele dispara um processo que
+                    executa o
+                    build, transforma seu código em arquivos otimizados (HTML, CSS, JS, imagens, etc.) e faz o deploy
+                    desses
+                    arquivos em sua infraestrutura. Além disso, oferece recursos como pré-visualização de deploys
+                    (Deploy
+                    Previews), permitindo que você veja como ficará a versão antes de colocar no ar. Se algo der errado,
+                    é
+                    possível fazer rollback instantaneamente para uma versão anterior com apenas um clique. Isso torna o
+                    desenvolvimento muito mais ágil, seguro e colaborativo.
+                </p>
+
+                <h3>2. CDN e velocidade</h3>
+
+                <p class="textoNetlify">
+                    O Netlify possui uma Content Delivery Network (CDN) distribuída globalmente. Isso significa que,
+                    assim
+                    que seu site é publicado, ele não fica hospedado em um único servidor, mas sim replicado em diversos
+                    servidores espalhados pelo mundo. Dessa forma, quando um usuário acessa seu site, ele recebe os
+                    arquivos
+                    do servidor mais próximo geograficamente, garantindo um carregamento muito mais rápido. Isso não só
+                    melhora a experiência do usuário como também contribui diretamente para o SEO, já que a velocidade
+                    do
+                    site é um dos fatores de ranqueamento nos mecanismos de busca.
+                </p>
+
+                <h3>3. Serverless Functions</h3>
+
+                <p class="textoNetlify">
+                    Outra funcionalidade poderosa do Netlify são as chamadas Serverless Functions. Elas permitem que
+                    você
+                    rode código backend sem se preocupar com servidores físicos ou virtuais. É como ter acesso às
+                    funções da
+                    AWS Lambda, mas diretamente integrado à sua aplicação. Isso possibilita criar APIs, processar
+                    formulários, realizar autenticações, enviar e-mails e muito mais. Existem diferentes tipos de
+                    funções,
+                    como as Functions normais para respostas rápidas, Background Functions que lidam com tarefas
+                    demoradas,
+                    Scheduled Functions que permitem agendar execuções (como tarefas automáticas) e Edge Functions que
+                    executam seu código diretamente na borda da rede (mais perto dos usuários, com menor latência). Isso
+                    permite que você adicione funcionalidades dinâmicas sem perder a performance e simplicidade do
+                    front-end
+                    estático.
+                </p>
+
+                <h3>4. Primitivas da plataforma</h3>
+
+                <p class="textoNetlify">
+                    O Netlify não se limita apenas ao deploy e ao backend serverless. Ele oferece um conjunto de
+                    ferramentas
+                    e primitivas que ajudam a gerenciar e otimizar aplicações modernas. Isso inclui integração
+                    facilitada
+                    com CMSs (como Strapi, Sanity, Contentful, etc.), análise de métricas de desempenho com dados reais
+                    de
+                    usuários (RUM), gerenciamento inteligente de cache para acelerar ainda mais a entrega de conteúdo,
+                    além
+                    de suporte à otimização de imagens. Também permite a configuração de variáveis de ambiente,
+                    facilitando
+                    o controle de informações sensíveis e de ambiente (como chaves de API). Tudo isso faz parte de um
+                    ecossistema pensado para que o desenvolvedor se preocupe menos com infraestrutura e mais com código.
+                </p>
+
+                <h3>5. Segurança e compliance</h3>
+
+                <p class="textoNetlify">
+                    Em termos de segurança, o Netlify oferece uma série de recursos robustos. Todo site hospedado na
+                    plataforma já vem automaticamente com SSL (HTTPS) gratuito, garantindo que as conexões sejam
+                    seguras.
+                    Além disso, possui proteção contra ataques DDoS, firewall de aplicativos web (WAF) e controle de
+                    acesso
+                    por geolocalização, o que permite bloquear acessos de determinados países ou regiões, se necessário.
+                    Para empresas e projetos maiores, oferece suporte a Single Sign-On (SSO), integração com SCIM para
+                    gerenciamento de identidade corporativa e controle rigoroso de permissões por função. Isso tudo
+                    garante
+                    que a plataforma atenda tanto projetos pessoais quanto demandas corporativas com alto padrão de
+                    segurança e compliance.
+                </p>
+
+                <h3>6. Extensibilidade e integrações</h3>
+
+                <p class="textoNetlify">
+                    A plataforma é altamente extensível e pode ser adaptada para diferentes necessidades. Existe um
+                    marketplace recheado de plugins, tanto oficiais quanto desenvolvidos pela comunidade, que permitem
+                    adicionar funcionalidades como otimização de imagens, integração com ferramentas de analytics,
+                    automação
+                    de tarefas e muito mais. Além disso, oferece um SDK para desenvolvedores criarem suas próprias
+                    extensões
+                    e uma API robusta que permite que o Netlify se integre com diversos serviços externos, como Stripe
+                    (pagamentos), autenticação via Auth0 ou Firebase, entre outros. Isso permite que projetos cresçam
+                    sem
+                    precisar migrar de plataforma, oferecendo uma solução completa do início ao fim.
+                </p>
+
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
